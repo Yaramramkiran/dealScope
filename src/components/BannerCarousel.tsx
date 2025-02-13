@@ -1,11 +1,11 @@
 import { Image, Flex } from "@chakra-ui/react";
 
 const banners = [
-    "./src/assets/bannersimage.jpeg",
-    "./src/assets/bannersimage.jpeg",
-    "./src/assets/bannersimage.jpeg",
-    "./src/assets/bannersimage.jpeg",
-    "./src/assets/bannersimage.jpeg",
+    "/assets/bannersimage.jpeg",
+    "/assets/bannersimage.jpeg",
+    "/assets/bannersimage.jpeg",
+    "/assets/bannersimage.jpeg",
+    "/assets/bannersimage.jpeg",
 ];
 
 const BannerCarousel = () => {

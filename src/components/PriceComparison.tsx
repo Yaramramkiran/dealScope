@@ -10,6 +10,7 @@ const priceList = [
 const PriceComparison = () => {
     return (
         <Box p={4} borderWidth="1px" borderRadius="md" shadow="md">
+
             <VStack display="flex" flexDirection="column" gap={4} alignItems="stretch">
                 {priceList.map((item, index) => (
                     <Box key={index} p={3} borderWidth="1px" borderRadius="md">
