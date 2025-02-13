@@ -56,14 +56,14 @@ const Navbar = () => {
 
                 {/* Center: Search Bar */}
                 <Flex flex={1} maxW="500px" mx={4}>
-                    <Input
-                        placeholder="Trending Electronics"
-                        border="1px"
-                        borderColor="gray.300"
-                        borderRadius="md"
-                        focusBorderColor="blue.400"
-                        px={4}
-                        py={2}
+                <Input 
+                    placeholder="Search..." 
+                    border="1px" 
+                    borderColor="gray.300" 
+                    borderRadius="md"
+                    _focus={{ borderColor: "blue.500" }}  // Using _focus instead of focusBorderColor
+                    px={4}
+                    py={2}
                     />
                     <Button bg="red.500" color="white" px={4} py={2} _hover={{ bg: "red.600" }}>
                         <AiOutlineSearch size={20} />
