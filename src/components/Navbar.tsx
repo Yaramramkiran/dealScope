@@ -51,7 +51,7 @@ const Navbar = () => {
                 {/* Left: Logo & Menu */}
                 <Flex align="center" gap={2}>
                     <IoMenu size={24} />
-                    <Image src="/src/assets/dealscopesmainLogo.svg" alt="dealscopes" h="40px" w="100px" />
+                    <Image src="/assets/dealscopesmainLogo.svg" alt="dealscopes" h="40px" w="100px" />
                 </Flex>
 
                 {/* Center: Search Bar */}

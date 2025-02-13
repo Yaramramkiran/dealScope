@@ -1,26 +1,26 @@
 import { Box, Image, SimpleGrid } from "@chakra-ui/react";
 
 const listOfThumbNails = [
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg",
-    "./src/assets/thumbnails.jpeg"
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg",
+    "/assets/thumbnails.jpeg"
 ]
 
 const ProductGrid = () => {
