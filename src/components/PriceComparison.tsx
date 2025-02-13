@@ -10,7 +10,7 @@ const priceList = [
 const PriceComparison = () => {
     return (
         <Box p={4} borderWidth="1px" borderRadius="md" shadow="md">
-            <VStack spacing={4} align="stretch">
+            <VStack align="stretch">
                 {priceList.map((item, index) => (
                     <Box key={index} p={3} borderWidth="1px" borderRadius="md">
                         {item.bestPrice && <Badge colorScheme="orange" mb={1}>Best Price</Badge>}

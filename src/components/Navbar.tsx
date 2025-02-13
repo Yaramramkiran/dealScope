@@ -61,7 +61,7 @@ const Navbar = () => {
                         border="1px"
                         borderColor="gray.300"
                         borderRadius="md"
-                        focusBorderColor="blue.400"
+                        // focusBorderColor="blue.400"
                         px={4}
                         py={2}
                     />
