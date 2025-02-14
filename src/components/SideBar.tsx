@@ -1,7 +1,13 @@
 import { Box, Button, VStack, } from "@chakra-ui/react";
 import { IoMdClose } from "react-icons/io";
 
-const Sidebar = ({ isOpen, onClose }) => {
+
+interface SidebarProps {
+    isOpen: boolean;
+    onClose: () => void;
+}
+
+const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
 
     return (
         <>
