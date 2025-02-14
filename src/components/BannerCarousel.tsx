@@ -6,6 +6,10 @@ const banners = [
     "/assets/bannersimage.jpeg",
     "/assets/bannersimage.jpeg",
     "/assets/bannersimage.jpeg",
+    "/assets/bannersimage.jpeg",
+    "/assets/bannersimage.jpeg",
+    "/assets/bannersimage.jpeg",
+    "/assets/bannersimage.jpeg",
 ];
 
 const BannerCarousel = () => {

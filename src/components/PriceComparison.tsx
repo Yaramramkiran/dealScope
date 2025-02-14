@@ -9,7 +9,7 @@ const priceList = [
 
 const PriceComparison = () => {
     return (
-        <Box p={4} borderWidth="1px" borderRadius="md" shadow="md">
+        <Box p={4} borderWidth="1px" borderRadius="md" shadow="md" h={"100%"} overflow={"auto"}>
 
             <VStack display="flex" flexDirection="column" gap={4} alignItems="stretch">
                 {priceList.map((item, index) => (

@@ -9,13 +9,20 @@ function Home() {
     return (
         <Stack>
             <Navbar />
-            <BannerCarousel />
 
-            <Flex className="max-w-7xl mx-auto p-4" justify="space-between" minH={"100vh"}>
-                <Box className="w-3/4">
+            <BannerCarousel />
+            <Flex
+                className="max-w-7xl p-4"
+                justify="space-between"
+                h={`calc(100vh - 200px)`}
+                mx="10px"
+                gap="15px"
+                mb={"10px"}
+            >
+                <Box w={"75%"}>
                     <ProductGrid />
                 </Box>
-                <Box className="w-1/4 ml-4">
+                <Box w={"25%"}>
                     <PriceComparison />
                 </Box>
             </Flex>
